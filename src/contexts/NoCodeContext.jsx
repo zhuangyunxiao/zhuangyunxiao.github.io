@@ -90,7 +90,7 @@ export const NoCodeProvider = ({ children }) => {
 
   return (
     <NoCodeSDKContext.Provider value={value}>
-      {isReady ? children : ""}
+      {children}
     </NoCodeSDKContext.Provider>
   );
 };
